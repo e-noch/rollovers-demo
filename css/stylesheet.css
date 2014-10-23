@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-size:100%;
+	font-weight:400;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+font-size:1.875em;
+font-weight:700;
+text-transform:uppercase;	
+margin-bottom:30px;
+}
+
+.container {
+width:80%;
+margin: 0 auto;	
+}
+
+ul{
+margin-bottom:30px;
+float:left;
+}
+
+li {
+display:inline;
+float:left;
+padding:15px 35px;	
+font-size:.875em;
+}
+
+a {
+text-decoration:none;	
+color:#f5f5f5;
+background:#A7DBD8;
+padding:15px 35px;	
+}
+
+a:hover {
+background:#69D2E7;	
+}
+
+.rounded a {
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+}
+
+.transition a {
+-webkit-transition: background 1s ease-in;
+-moz-transition: background 1s ease-in;
+-ms-transition: background 1s ease-in;
+-o-transition: background 1s ease-in;
+transition: background 1s ease-in;	
+}
+
+.transition2 a {
+-webkit-transition: background 1s ease-in;
+-moz-transition: background 1s ease-in;
+-ms-transition: background 1s ease-in;
+-o-transition: background 1s ease-in;
+transition: background 1s ease-in;
+}
+
+
+.transition2 a:hover {
+-webkit-transition: border-color 1s ease;
+-moz-transition: border-color 1s ease;
+-o-transition: border-color 1s ease;
+-ms-transition: border-color 1s ease;
+transition: border-color 1s ease;    
+border-top:3px solid #073b62;
+}
+
+.imagesprite {
+display: block;
+width: 125px;
+height: 60px;
+background: url(../images/cssrollover.jpg) no-repeat 0 0;
+overflow: hidden;
+text-indent: -15000px;
+font-size: 0px;
+line-height: 0px;
+-webkit-transition:background-position .2s ease;
+}
+
+.imagesprite:hover {
+background-position: 0 -60px;
+}
+
+.imagesprite:active {
+background-position: 0 -120px;
+}
+
